@@ -8,9 +8,9 @@ Credit Kudos' Technical Challenge.
 * I will need two main classes `Creature/Kudomon class` and `Player/Trainer class` and a few smaller calsses:
 ```
 .
-+-- _Player/Trainer class
++-- Player/Trainer class
 |
-+-- _Creature/Kudomon class
++-- Creature/Kudomon class
 |   +-- GrassType class
 |       +--Sourbulb class
 |   +-- FireType class
