@@ -21,6 +21,11 @@ describe Trainer do
       expect(ash.near_by.first).to eq sourbulb
       expect(ash.near_by.first.class).to eq GrassType
     end
+    it "trainer can catch a nearby kudomon" do
+      expect(ash).to respond_to(:throw_kudoball).with(1).argument
+      ash.throw_kudoball(sourbulb)
+      expect(ash.collection).to include sourbulb
+    end
   end
 
 end

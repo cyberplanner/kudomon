@@ -2,9 +2,11 @@
 class Trainer
   attr_reader :location
   attr_reader :near_by
+  attr_reader :collection
   def initialize
     @location = [0, 0]
     @near_by = []
+    @collection = []
   end
 
   def nearby_kudomons(array_of_kudomons)
@@ -15,5 +17,9 @@ class Trainer
         @near_by << kudomon
       end
     end
+  end
+
+  def throw_kudoball(kudomon)
+    @collection << kudomon
   end
 end
