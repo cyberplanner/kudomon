@@ -19,6 +19,7 @@ describe Trainer do
       expect(ash).to respond_to(:nearby_kudomons).with(1).argument
       ash.nearby_kudomons(array_of_kudomons)
       expect(ash.near_by.first).to eq sourbulb
+      expect(ash.near_by.first.class).to eq GrassType
     end
   end
 
