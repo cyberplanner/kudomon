@@ -1,4 +1,4 @@
-require 'fire_type'
+require 'types/fire_type'
 
 describe FireType do
   let(:position) { [15, 15] }

@@ -1,4 +1,4 @@
-require 'grass_type'
+require 'types/grass_type'
 
 describe GrassType do
   let(:position) { [15, 15] }

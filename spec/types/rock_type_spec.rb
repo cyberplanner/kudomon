@@ -1,4 +1,4 @@
-require 'rock_type'
+require 'types/rock_type'
 
 describe RockType do
   let(:position) { [15, 15] }

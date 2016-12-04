@@ -1,4 +1,4 @@
-require 'psychic_type'
+require 'types/psychic_type'
 
 describe PsychicType do
   let(:position) { [15, 15] }

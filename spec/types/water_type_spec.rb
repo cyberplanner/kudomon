@@ -1,4 +1,4 @@
-require 'water_type'
+require 'types/water_type'
 
 describe WaterType do
   let(:position) { [15, 15] }

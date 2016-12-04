@@ -1,4 +1,4 @@
-require 'electric_type'
+require 'types/electric_type'
 
 describe ElectricType do
   let(:position) { [15, 15] }
