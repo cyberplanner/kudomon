@@ -21,7 +21,7 @@ class KudomonBattle < Sinatra::Base
     @player = Trainer.new(@player_name)
     @kudomons = []
 
-    rand(1..50).times do
+    rand(1..25).times do
       location = [rand(1..50), rand(1..50)]
       type = ["Electric", "Fire", "Grass",
                 "Psychic", "Rock", "Water"].sample
