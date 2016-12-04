@@ -15,7 +15,7 @@ class Trainer
     @all_kudomons = array_of_kudomons
     @all_kudomons.each do |kudomon|
       location = kudomon.location
-      if location[0] < 25 && location[1] < 25
+      if location[0] <= 5 && location[1] <= 5
         @near_by << kudomon
       end
     end

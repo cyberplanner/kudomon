@@ -1,8 +1,7 @@
 require 'sinatra/base'
-# Dir["./lib/*.rb"].each {|file| require file }
-require_relative './lib/kudomon'
-require_relative './lib/trainer'
-require_relative './lib/types/electric_type'
+Dir["./lib/*.rb"].each {|file| require file }
+# require_relative './lib/kudomon'
+# require_relative './lib/trainer'
 
 
 class KudomonBattle < Sinatra::Base
@@ -21,11 +20,16 @@ class KudomonBattle < Sinatra::Base
     @player_name = session[:player_name]
     @player = Trainer.new(@player_name)
     @kudomons = []
-    @types = ["ElectricType", "FireType", "GrassType",
-              "PsychicType", "RockType", "WaterType"]
-    rand(25..50).times do
-      @kudomons << ElectricType.new
+
+    rand(1..50).times do
+      location = [rand(1..50), rand(1..50)]
+      type = ["Electric", "Fire", "Grass",
+                "Psychic", "Rock", "Water"].sample
+      @kudomons << Kudomon.new(location, type)
     end
+
+    @nearby_kudomons = @player.nearby_kudomons(@kudomons)
+
     erb :play
   end
 

@@ -2,7 +2,7 @@
 <h2>Your collcetion: <%= @player.collection.count %> Kudomons</h2>
 <h3>Kudomons nearby:</h3>
 <ul>
-  <% @kudomons.each do |kudo| %>
+  <% @nearby_kudomons.each do |kudo| %>
     <li><%= kudo.species %></li>
   <% end %>
 </ul>
