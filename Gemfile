@@ -7,4 +7,5 @@ group :development, :test do
   gem 'pry'
   gem 'byebug'
   gem 'capybara'
+  gem 'selenium-webdriver'
 end
