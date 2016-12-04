@@ -1,7 +1,8 @@
 require 'electric_type'
 
 describe ElectricType do
-  let(:electro) { described_class.new(15, 15) }
+  let(:position) { [15, 15] }
+  let(:electro) { described_class.new(position) }
 
   it 'inherts location from its parent calss' do
     expect(electro).to respond_to(:location)

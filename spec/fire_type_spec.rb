@@ -1,7 +1,8 @@
 require 'fire_type'
 
 describe FireType do
-  let(:flamo) { described_class.new(15, 15) }
+  let(:position) { [15, 15] }
+  let(:flamo) { described_class.new(position) }
 
   it 'inherts location from its parent calss' do
     expect(flamo).to respond_to(:location)

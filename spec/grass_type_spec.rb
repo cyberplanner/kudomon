@@ -1,7 +1,8 @@
 require 'grass_type'
 
 describe GrassType do
-  let(:grassy) { described_class.new(15, 15) }
+  let(:position) { [15, 15] }
+  let(:grassy) { described_class.new(position) }
 
   it 'inherts location from its parent calss' do
     expect(grassy).to respond_to(:location)

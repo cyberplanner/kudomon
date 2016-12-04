@@ -1,7 +1,8 @@
 require 'kudomon'
 
 describe Kudomon do
-  let(:kudo) { described_class.new(15, 10) }
+  let(:position) { [15, 10] }
+  let(:kudo) { described_class.new(position) }
 
   it 'Has a location' do
     expect(kudo).to respond_to(:location)

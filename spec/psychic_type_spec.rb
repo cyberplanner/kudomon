@@ -1,7 +1,8 @@
 require 'psychic_type'
 
 describe PsychicType do
-  let(:psy) { described_class.new(15, 15) }
+  let(:position) { [15, 15] }
+  let(:psy) { described_class.new(position) }
 
   it 'inherts location from its parent calss' do
     expect(psy).to respond_to(:location)

@@ -1,7 +1,8 @@
 require 'water_type'
 
 describe WaterType do
-  let(:puddle) { described_class.new(15, 15) }
+  let(:position) { [15, 15] }
+  let(:puddle) { described_class.new(position) }
 
   it 'inherts location from its parent calss' do
     expect(puddle).to respond_to(:location)

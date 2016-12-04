@@ -6,7 +6,11 @@ class Trainer
     @location = [0, 0]
   end
 
-  def nearest
+  def nearby_kudomons(array_of_kudomons)
+    @all_kudomons = array_of_kudomons
+    @neary_by = []
+    @all_kudomons.each do |kudomon|
 
+    end
   end
 end
