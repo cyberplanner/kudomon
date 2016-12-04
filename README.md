@@ -10,6 +10,8 @@ Credit Kudos' Technical Challenge.
 * I will need a `Player/Trainer class`.
 
 * I will need an `Area/Map class`
+
+#### Domain Model:
 ```
 .
 +-- Player/Trainer class
@@ -18,17 +20,17 @@ Credit Kudos' Technical Challenge.
 |
 +-- Creature/Kudomon class
 |   +-- GrassType class
-|       +--Sourbulb class
+|       +--Sourbulb species
 |   +-- FireType class
-|       +--Mancharred class
+|       +--Mancharred species
 |   +-- ElectricType class
-|       +--Chikapu class
+|       +--Chikapu species
 |   +-- WaterType class
-|       +--PlopPlop class
+|       +--PlopPlop species
 |   +-- RockType class
-|       +--Balboa class
+|       +--Balboa species
 |   +-- PsychicType class
-|       +-- Neo class
+|       +-- Neo species
 .
 ```
 
