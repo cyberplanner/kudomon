@@ -2,9 +2,13 @@ require 'trainer'
 
 
 describe Trainer do
-  let(:ash) { described_class.new }
+  let(:ash) { described_class.new('Ash') }
   it 'Has a location' do
     expect(ash).to respond_to(:location)
+  end
+
+  it 'Has a name' do
+      expect(ash.name).to eq 'Ash'
   end
 
   it 'Trainer is in the middle of the area' do

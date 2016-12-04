@@ -3,7 +3,9 @@ class Trainer
   attr_reader :location
   attr_reader :near_by
   attr_reader :collection
-  def initialize
+  attr_reader :name
+  def initialize(name)
+    @name = name
     @location = [0, 0]
     @near_by = []
     @collection = []
