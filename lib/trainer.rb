@@ -21,5 +21,6 @@ class Trainer
 
   def throw_kudoball(kudomon)
     @collection << kudomon
+    @near_by.delete(kudomon)
   end
 end

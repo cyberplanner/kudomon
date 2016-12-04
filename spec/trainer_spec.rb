@@ -23,8 +23,10 @@ describe Trainer do
     end
     it "trainer can catch a nearby kudomon" do
       expect(ash).to respond_to(:throw_kudoball).with(1).argument
-      ash.throw_kudoball(sourbulb)
+      ash.nearby_kudomons(array_of_kudomons)
+      ash.throw_kudoball(ash.near_by[0])
       expect(ash.collection).to include sourbulb
+      expect(ash.near_by).not_to include sourbulb
     end
   end
 
