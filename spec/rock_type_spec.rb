@@ -7,4 +7,8 @@ describe RockType do
     expect(rocky).to respond_to(:location)
     expect(rocky.location).to eq [15, 15]
   end
+
+  it 'has species' do
+    expect(rocky.species).to eq 'Balboa'
+  end
 end

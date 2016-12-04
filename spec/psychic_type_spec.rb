@@ -7,4 +7,8 @@ describe PsychicType do
     expect(psy).to respond_to(:location)
     expect(psy.location).to eq [15, 15]
   end
+
+  it 'has species' do
+    expect(psy.species).to eq 'Neo'
+  end
 end

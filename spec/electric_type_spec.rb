@@ -7,4 +7,8 @@ describe ElectricType do
     expect(electro).to respond_to(:location)
     expect(electro.location).to eq [15, 15]
   end
+
+  it 'has species' do
+    expect(electro.species).to eq 'Chikapu'
+  end
 end
