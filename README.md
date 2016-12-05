@@ -52,3 +52,24 @@ Credit Kudos' Technical Challenge.
 .
 ```
 * I introduced a Sinatra app layer on top of the logic I implemented earlier.
+
+----------
+### To run this application:
+* Clone this repo:
+`$ git clone git@github.com:creditkudos/kudomon.git`
+
+* Run the server:
+`$ ruby app.rb`
+
+* Navigate to `localhost:localhost:4567` in your favourite browser.
+
+### To play the game:
+
+```
+WIP
+```
+----------
+
+#### This web app is still a work in progress, I ran out of time and couldn't finish it in time but I hope it will provide an insight on my approach.
+
+#### Thanks for reviewing my code. feedback are welcomed and appreciated.
