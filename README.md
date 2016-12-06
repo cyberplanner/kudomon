@@ -61,7 +61,7 @@ Credit Kudos' Technical Challenge.
 * Run the server:
 `$ ruby app.rb`
 
-* Navigate to `localhost:localhost:4567` in your favourite browser.
+* Navigate to `localhost:4567` in your favourite browser.
 
 ### To play the game:
 
@@ -70,6 +70,6 @@ WIP
 ```
 ----------
 
-#### This web app is still a work in progress, I ran out of time and couldn't finish it in time but I hope it will provide an insight on my approach.
+#### This web app is still a work in progress, I ran out of time and couldn't finish it as I was stuck in Birmingham away from my laptop and I have very little time towork on it, but I hope it will provide an insight on my approach.
 
 #### Thanks for reviewing my code. feedback are welcomed and appreciated.
