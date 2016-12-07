@@ -70,6 +70,6 @@ WIP
 ```
 ----------
 
-#### This web app is still a work in progress, I ran out of time and couldn't finish it as I was stuck in Birmingham away from my laptop and I have very little time towork on it, but I hope it will provide an insight on my approach.
+#### This web app is still a work in progress, I ran out of time and couldn't finish it as I was stuck in Birmingham away from my laptop and I had very little time to work on it, but I hope it will provide an insight on my approach.
 
 #### Thanks for reviewing my code. feedback are welcomed and appreciated.
